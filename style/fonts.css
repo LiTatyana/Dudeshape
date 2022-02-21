@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('../fonts/Red_Hat_Display/RedHatDisplay-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'RedHatDisplay-italic';
+    src: url('../fonts/Red_Hat_Display/RedHatDisplay-BoldItalic.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('../fonts/Red_Hat_Display/RedHatDisplay-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url('../fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url('../icons/webfonts/fa-brands-400.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url('../icons/webfonts/fa-duotone-900.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../icons/webfonts/fa-light-300.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../icons/webfonts/fa-regular-400.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesome Solid';
+    src: url('../icons/webfonts/fa-solid-900.ttf');
+    font-weight: 900;
+}
+
+.fal{
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+.far{
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+.fab{
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+.fad{
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+.fas{
+    font-family: 'FontAwesome Solid';
+    font-weight: 900;
+}
+
+
+.user::before{
+    content: '\f007';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 20px;
+    color: #222222;
+}
+.cart-shopping::before{
+    content: '\f07a';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 20px;
+    color: #222222;
+}
+.bars-staggered::before{
+    content: '\f550';
+    font-style: normal;
+   /* font-weight: 400; */
+    font-size: 20px;
+    color: #222222;
+}
+.glass::before{
+    content: '\f002';
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.chevron-left::before{
+    font-style: normal;
+    font-size: 40px;
+    color: #222222;
+    content: '\f053';
+}
+.chevron-right::before{
+    font-style: normal;
+    font-size: 40px;
+    color: #222222;
+    content: '\f054';
+}
+.arrow-right::before{
+    content: '\f061';
+    font-style: normal;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none !important;
+}
+.facebook::before{
+    content: '\f39e';
+    font-size: 13px;
+    font-style: normal;
+    color:#402F2C;
+}
+.twitter::before{
+    content: '\f099';
+    font-size: 13px;
+    font-style: normal;
+    color:#402F2C;
+}
+.instagram::before{
+    content: '\f16d';
+    font-size: 13px;
+    font-style: normal;
+    color:#402F2C;
+}

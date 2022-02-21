@@ -1,0 +1,392 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+/* ===== header ===== */
+.header .header-nav{
+    padding: 0 15px;
+}
+.container .navbar-logo{
+    padding: 0;
+}
+.navbar-expand-lg .nav-list .nav-item .nav-links{
+    padding: 0;
+    font-family: 'RedHatDisplay';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #222222;
+}
+.nav-list{
+    gap: 40px;
+}
+.nav-list-icons{
+    gap: 24px;
+}
+.logo{
+    font-family: 'RedHatDisplay-italic';
+font-weight: 700;
+font-size: 24px;
+border-bottom: 3px solid #222222;
+color: #222222;
+}
+.header{
+    background: #F9F6F5 ;
+    padding-top: 40px;
+}
+/* ----- slider ------ */
+.slider{
+    padding-top: 68px;
+}
+.slider-left{
+    gap: 30px;
+
+}
+.slider-right{
+    position: absolute;
+    right: 0;
+    
+}
+.slider-left_logo{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 56px;
+line-height: 70px;
+color: #000000;
+}
+.slider-left_text{
+    font-family: 'RedHatDisplay';
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #555555;
+}
+input::placeholder{
+    font-family: 'RedHatDisplay';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;    
+}
+input{
+    padding: 14px 16px;
+    width: 100%;
+    border: none;
+}
+form{
+    width: 326px;
+    position: relative;
+    background: #FFFFFF;
+}
+.form-button{
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    margin-right: 8px !important;
+}
+.button-glass{
+    background: #402F2C;
+    padding: 8px;
+}
+.brown-button{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+
+margin-top: 30px;
+background-color: #402F2C;
+width: fit-content;
+padding: 16px 32px;
+text-decoration: none;
+}
+.slider-left_content{
+    gap: 30px;
+    padding: 108px 0;
+}
+a:hover{
+    /* color: #FFFFFF !important; */
+    color: none !important;
+
+}
+.carousel-control-prev{
+    color: black;
+}
+.block-buttons{
+    width: 145px;
+    height: 138px;
+}
+.carousel-control-next, 
+.carousel-control-prev{
+    position: static !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-image: none !important;
+}
+.myclass{
+    position: relative;
+}
+.block-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F9F6F5;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+/* ----- slider ------ */
+/* ===== header ===== */
+
+/* ===== main ===== */
+.light-t{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 1.4px;
+text-transform: capitalize;
+color: #E4E4E4;
+}
+.light-text{
+    padding: 51px 0;
+}
+.logos-content{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 42.5px;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+}
+/* .logos{
+    margin-bottom: 130px;
+} */
+
+
+.main-header{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 56px;
+line-height: 70px;
+color: #000000;
+}
+.main-texts{
+    font-family: 'RedHatDisplay';
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #555555;
+}
+.some-link{
+    gap: 10px;
+    align-items: center;
+}
+.some-link:hover{
+    color: #222222 !important;
+}
+.some-link-t{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-decoration-line: underline;
+color: #222222;
+
+}
+p{
+    margin-bottom: 0 !important;
+}
+.underhead-t{
+    padding: 20px 0 60px;
+    width: 714px;
+}
+.cosmetic-head{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #222222;
+
+}
+.button-l{
+    font-family: 'RedHatDisplay';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #402F2C;
+padding: 16px 32px;
+border: 1px solid rgba(104, 90, 82, 0.46);
+background: #FFFFFF;
+width: fit-content;
+transition: 0.3s;
+}
+.button-l:hover{
+    background: #402F2C;
+    color: #FFFFFF;
+}
+.price{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 30px;
+line-height: 32px;
+color: #222222;
+}
+.under_pic{
+    padding: 20px 32px;
+
+}
+.cosmetic-text{
+    margin: 16px 0 47px !important;
+
+}
+.porular-buttons{
+    gap: 24px;
+
+}
+.porular-card{
+    border: 1px solid rgba(104, 90, 82, 0.19);
+}
+.porular-block{
+    gap: 40px;
+}
+.num{
+    font-family: 'RedHatDisplay';
+font-weight: 700;
+font-size: 56px;
+line-height: 70px;
+color: #222222;
+padding-bottom: 3px;
+border-bottom: 4px solid #222222;
+width: fit-content;
+}
+.under-num{
+    font-family: 'RedHatDisplay';
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #555555;
+
+}
+.number-t{
+    gap: 30px;
+}
+.numbers{
+    background: #FDF8F5;
+    padding: 58px 0;
+}
+.main{
+    gap: 130px ;
+}
+.perfect-left{
+    width: 608px;
+}
+.perfect-head{
+    width: 520px;
+}
+.am-header{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+color: #222222;
+}
+.amazing-text{
+    margin: 43px 0 79px;
+}
+.amazing_pic{
+    width: 583px;
+}
+.am_h{
+    margin-bottom: 15px;
+}
+.amazing-content{
+    gap: 40px;
+}
+/* ===== main ===== */
+/* ===== footer ===== */
+.footer{
+    background: #FAFAFA;
+}
+.subscribe-content{
+    padding: 103px 0 59px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.subscribe-header{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 36px;
+line-height: 46px;
+color: #222222;
+}
+.form-button-t{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+
+padding: 10px 20px;
+background: #402F2C;
+}
+.last-form-button{
+    top: 15%;
+}
+.logo{
+    width:fit-content ;
+}
+.footer-logo{
+    font-size: 40px;
+    margin-bottom: 38px;
+}
+.lastsec-block{
+    max-width: 326px;
+    width: fit-content;
+}
+.lastsec-content{
+    padding: 59px 105px !important;
+}
+.footer-t{
+    font-size: 18px;
+}
+.last-sec-t{
+    font-family: 'RedHatDisplay';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #222222;
+padding-bottom: 39px;
+}
+.lastsec_ul{
+    padding-left: 0 !important;
+    gap: 20px;
+}
+.last-ul-el{
+    
+font-family: 'RedHatDisplay';
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #222222;
+}
+.last-ul-el:hover{
+    color: #222222;
+}
+.lastsec-block{
+    gap: 20px;
+}
+.lastsec-icons{
+    gap: 26px;
+}
+/* ===== footer ===== */
